@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+section{
+    /* height: 500px; */
+    padding: 100px 0;
+    overflow: hidden;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-text{
+    padding-top: 50px;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.highlight{
+    color: #ec4c7a;
+    font-weight: 900;
+}
+p{
+    color: gray;
+    margin: 35px 0;
+}
+a.link-button{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(#ec4f92, #ec4b75);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latest-work-area h2{
+    font-weight: 600;
+    text-align: center;
+}
+.one-third{
+    width: 24%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.one-third img{
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+}
+.one-third a:hover img{
+    box-shadow: 10px 10px 40px gray;
+}
+.footer-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 0;
+}
+.footer-area h5{
+    color: gray;
+}   
+.footer-area q{
+    margin: 35px 0;
+    display: inline-block;
+}
+.btn{
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(#ec4f92, #ec4b75);
+    border-radius: 5px;
+    text-align: center;
+    padding: 25px;
+}
+.btn p{
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+footer{
+   margin-top: 150px;
+}
